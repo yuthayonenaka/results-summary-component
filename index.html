@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="container">
+          <div class="result-container">
+            <h1 class="heading-primary">Your Result</h1>
+            <div class="result-number-container">
+              <span class="result-number">76</span>
+              <span class="result-max-number">of 100</span>
+            </div>
+            <div class="text-result-container">
+              <h2 class="heading-secondary">Great</h2>
+              <p class="sub-heading">
+                You scored higher than 65% of <br />
+                the people who have taken these tests.
+              </p>
+            </div>
+          </div>
+          <div class="summary-container">
+            <h1 class="heading-primary summary">Summary</h1>
+            <ul class="summary-list">
+              <li class="summary-item reaction">
+                <div class="summary-name">
+                  <img
+                    src="assets/images/icon-reaction.svg"
+                    alt="icon of thunder"
+                  />
+                  <span>Reaction</span>
+                </div>
+                <div class="summary-number">
+                  <span>80</span>
+                  <span>/100</span>
+                </div>
+              </li>
+              <li class="summary-item memory">
+                <div class="summary-name">
+                  <img
+                    src="assets/images/icon-memory.svg"
+                    alt="icon of brain"
+                  />
+                  <span>Memory</span>
+                </div>
+                <div class="summary-number">
+                  <span>92</span>
+                  <span>/100</span>
+                </div>
+              </li>
+              <li class="summary-item verbal">
+                <div class="summary-name">
+                  <img
+                    src="assets/images/icon-verbal.svg"
+                    alt="icon of message"
+                  />
+                  <span>Verbal</span>
+                </div>
+                <div class="summary-number">
+                  <span>61</span>
+                  <span>/100</span>
+                </div>
+              </li>
+              <li class="summary-item visual">
+                <div class="summary-name">
+                  <img src="assets/images/icon-visual.svg" alt="icon of eye" />
+                  <span>Visual</span>
+                </div>
+                <div class="summary-number">
+                  <span>72</span>
+                  <span>/100</span>
+                </div>
+              </li>
+            </ul>
+            <button class="button-continue">Continue</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
