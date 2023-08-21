@@ -19,8 +19,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/yuthayonenaka/results-summary-component](https://github.com/yuthayonenaka/results-summary-component)
+- Live Site URL: [https://gilded-granita-882235.netlify.app](https://gilded-granita-882235.netlify.app)
 
 ## My process
 
